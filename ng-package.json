@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "core",
+  "version": "0.0.3",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "core.ts"
+    }
+  }
+}

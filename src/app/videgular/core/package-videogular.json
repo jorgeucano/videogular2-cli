@@ -1,0 +1,116 @@
+
+{
+  "name": "@jorgeucanorg/core",
+  "version": "0.0.0-semantically-released",
+  "description": "Videogular is a video application framework for desktop and mobile powered by Angular 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videogular/videogular2"
+  },
+  "dependencies": {
+    "core-js": "2.4.1",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.5.2",
+    "systemjs": "0.20.9",
+    "zone.js": "0.8.5"
+  },
+  "devDependencies": {
+    "ng-packagr": "^1.6.0",
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/platform-server": "^5.0.0",
+    "@angular/router": "^5.0.0",
+    "@types/core-js": "0.9.35",
+    "@types/jasmine": "2.5.38",
+    "codelyzer": "4.0.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "es-module-loader": "2.2.8",
+    "http-server": "0.10.0",
+    "husky": "0.13.4",
+    "jasmine-core": "2.5.2",
+    "karma": "1.5.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-coverage": "1.1.1",
+    "karma-jasmine": "1.1.0",
+    "karma-spec-reporter": "0.0.30",
+    "parallelshell": "2.0.0",
+    "remap-istanbul": "0.9.5",
+    "rimraf": "2.6.1",
+    "rxjs": "5.5.2",
+    "semantic-release": "6.3.2",
+    "tslint": "5.0.0",
+    "typescript": "2.4.2",
+    "validate-commit-msg": "2.12.1",
+    "watch": "1.0.2"
+  },
+  "scripts": {
+
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "framework",
+    "angular2",
+    "javascript"
+  ],
+  "author": "Raúl Jiménez <elecash@gmail.com>",
+  "contributors": [
+    {
+      "name": "Alberto García",
+      "email": "cernhelm@gmail.com"
+    },
+    {
+      "name": "Joan Llenas Masó",
+      "email": "joan.llenas.maso@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/videogular/videogular2/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert",
+        "ci"
+      ],
+      "scope": {
+        "required": true,
+        "allowed": [
+          "*"
+        ],
+        "validate": true,
+        "multiple": false
+      },
+      "warnOnFail": false,
+      "maxSubjectLength": 100,
+      "subjectPattern": ".+",
+      "subjectPatternErrorMsg": "subject does not match subject pattern!",
+      "helpMessage": "",
+      "autoFix": false
+    }
+  },
+  "homepage": "http://videogular.com"
+}

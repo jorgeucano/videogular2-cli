@@ -1,5 +1,5 @@
 {
-  "name": "videogular2-cli",
+  "name": "@jorgeucanorg/core",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,9 +8,16 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "packagr-all": "",
+    "packagr-core": "ng-packagr -p ng-package.json",
+    "packagr-controls": "ng-packagr -p controls.json",
+    "packagr-buffering": "ng-packagr -p buffering.json",
+    "packagr-ima-ads": "ng-packagr -p ima-ads.json",
+    "packagr-overlay-play": "ng-packagr -p overlay-play.json",
+    "packagr-streaming": "ng-packagr -p streaming.json"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
@@ -41,6 +48,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^1.6.0",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
